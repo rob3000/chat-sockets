@@ -1,0 +1,6 @@
+{
+    "require": {
+        "cboden/ratchet": "^0.4.1",
+        "vlucas/phpdotenv": "^3.4"
+    }
+}
