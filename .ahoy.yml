@@ -1,0 +1,18 @@
+ahoyapi: v2
+commands:
+  up:
+    usage: Start the containers.
+    cmd: "docker-compose up -d"
+  down:
+    usage: Remove the containers.
+    cmd: docker-compose down
+  stop:
+    usage: Stop Docker containers.
+    cmd: docker-compose stop "$@"
+  build:
+    usage: Rebuild the containers.
+    cmd: docker-compose build "$@"
+  logs:
+    usage: View the container logs.
+    cmd: docker-compose logs "$@"
+

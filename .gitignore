@@ -1,1 +1,9 @@
+// Library
 vendor/*
+
+// IDE
+.idea/*
+
+// Config
+.env
+
